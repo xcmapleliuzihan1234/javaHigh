@@ -20,5 +20,9 @@ public class ThreadTest {
         MyThread s = new MyThread();
         //通过此对象调用start()
         s.start();
+        //s.run(); 不能使用，否则不能启动线程
+        //再启动一个线程需要重新调用MyThread
+        MyThread s1 = new MyThread();
+        s1.start();
     }
 }
