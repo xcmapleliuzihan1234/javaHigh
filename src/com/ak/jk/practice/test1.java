@@ -1,5 +1,8 @@
 package com.ak.jk.practice;
-
+/*
+请从键盘随机输入十个整数保存到List中，
+并按照倒序、从大到小的顺序显示出来
+ */
 import java.util.*;
 
 public class test1 {
@@ -16,7 +19,7 @@ public class test1 {
         Collections.sort(list);
         Collections.reverse(list);
         System.out.println(list);
-      //  System.out.println(id);
+
 
  }
 }
